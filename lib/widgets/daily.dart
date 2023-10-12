@@ -78,30 +78,41 @@ class Daily extends StatelessWidget {
                         end: Alignment.bottomRight,
                       ),
                     ),
-                    height: 60,
+                    height: 80,
                     padding: const EdgeInsets.all(8),
                     child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         Column(
                           children: [
-                            SizedBox(
-                              width: 80,
-                              child: Text(
-                                getDay(weatherDataDaily.daily[index].dt),
-                                style: const TextStyle(
-                                    color: Colors.white, fontSize: 18),
-                              ),
+                            Text(
+                              getDay(weatherDataDaily.daily[index].dt),
+                              style: const TextStyle(
+                                  color: Colors.white, fontSize: 18),
                             ),
+                            SizedBox(height: 5),
                             Text(
                               "Max. ${weatherDataDaily.daily[index].temp!.max} °C / Min. ${weatherDataDaily.daily[index].temp!.min} °C",
                               style: const TextStyle(
                                   color: Colors.white, fontSize: 18),
-                            )
+                            ),
                           ],
                         ),
-                        Image.asset(
-                            "assets/weather/${weatherDataDaily.daily[index].weather![0].icon}.png"),
+                        Column(
+                          children: [
+                            Image.asset(
+                              "assets/weather/${weatherDataDaily.daily[index].weather![0].icon}.png",
+                              width: 40,
+                              height: 40,
+                            ),
+                            Text(
+                              "${weatherDataDaily.daily[index].weather![0].description}",
+                              style: const TextStyle(
+                                  color: Colors.white, fontSize: 18),
+                            ),
+                          ],
+                        ),
                       ],
                     )),
               ),

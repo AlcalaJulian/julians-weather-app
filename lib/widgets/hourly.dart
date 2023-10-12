@@ -11,7 +11,6 @@ class Hourly extends StatelessWidget {
   Hourly({Key? key, required this.weatherDataHourly})
       : super(key: key);
 
-  // card index
   RxInt cardIndex = WeatherController().getIndex();
 
   @override

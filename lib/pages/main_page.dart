@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:julians_weather_app/controller/weather_controller.dart';
+import 'package:julians_weather_app/pages/home_screen.dart';
 import 'package:julians_weather_app/pages/second_page.dart';
 import 'package:julians_weather_app/widgets/hourly.dart';
 import '../model/current_weather_model.dart';
@@ -170,6 +171,23 @@ class _MainPageState extends State<MainPage> {
                   MaterialPageRoute(builder: (context) => SecondPage()),
                 );
               },
+            ),
+            Positioned(
+              right: 0,
+              top: 0,
+              child: IconButton(
+                icon: const Icon(
+                  Icons.replay_outlined,
+                  color: Colors.white,
+                  size: 40,
+                ),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const HomeScreen()),
+                  );
+                },
+              ),
             )
           ],
         ),
