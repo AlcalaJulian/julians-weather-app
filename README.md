@@ -18,15 +18,17 @@ Ubicación Exacta: WeatherApp utiliza la ubicación exacta del dispositivo para 
 #### Pronóstico de los Próximos 3 Días: En la página "SecondPage," los usuarios pueden consultar un pronóstico extendido para los próximos tres días. Esto es especialmente útil para la planificación a corto plazo y permite a los usuarios estar preparados para los cambios en el clima.
 
 ### Uso
-Asegúrate de tener Flutter instalado en tu sistema.
-
-Clona este repositorio en tu computadora.
-
-Ejecuta la aplicación usando flutter run.
+- Asegúrate de tener Flutter instalado en tu sistema.
+- versiones 3.7.0 de flutter y 2.19.0 de Dart.
+- Clona este repositorio en tu computadora.
+- Ejecuta la aplicación usando flutter run.
 
 ### Capturas de Pantalla
+![Screenshot_1697132716](https://github.com/AlcalaJulian/julians-weather-app/assets/141679437/3947595f-91cd-47b2-a69c-e904e4e62aad)
+![Screenshot_1697132719](https://github.com/AlcalaJulian/julians-weather-app/assets/141679437/64fd111d-0355-40a1-b08e-9dc61ae8e832)
 
-
+### APK de prueba
+https://drive.google.com/file/d/1iMriy3lnN7npt2fYZ35a7kwHQ_DudE4U/view?usp=sharing
 ## Contacto
 Para obtener más información o asistencia, ponte en contacto conmigo
 
