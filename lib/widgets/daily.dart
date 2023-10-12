@@ -55,7 +55,7 @@ class Daily extends StatelessWidget {
 
   Widget dailyList() {
     return SizedBox(
-      height: 400,
+      height: 500,
       child: ListView.builder(
         scrollDirection: Axis.vertical,
         itemCount: weatherDataDaily.daily.length > 3
@@ -78,7 +78,7 @@ class Daily extends StatelessWidget {
                         end: Alignment.bottomRight,
                       ),
                     ),
-                    height: 80,
+                    height: 90,
                     padding: const EdgeInsets.all(8),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
@@ -97,19 +97,19 @@ class Daily extends StatelessWidget {
                               style: const TextStyle(
                                   color: Colors.white, fontSize: 18),
                             ),
+                            Text(
+                              "${weatherDataDaily.daily[index].weather![0].description}",
+                              style: const TextStyle(
+                                  color: Colors.white, fontSize: 18),
+                            ),
                           ],
                         ),
                         Column(
                           children: [
                             Image.asset(
                               "assets/weather/${weatherDataDaily.daily[index].weather![0].icon}.png",
-                              width: 40,
-                              height: 40,
-                            ),
-                            Text(
-                              "${weatherDataDaily.daily[index].weather![0].description}",
-                              style: const TextStyle(
-                                  color: Colors.white, fontSize: 18),
+                              width: 70,
+                              height: 70,
                             ),
                           ],
                         ),
