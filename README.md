@@ -24,8 +24,10 @@ Ubicación Exacta: WeatherApp utiliza la ubicación exacta del dispositivo para 
 - Ejecuta la aplicación usando flutter run.
 
 ### Capturas de Pantalla
-![Screenshot_1697132716](https://github.com/AlcalaJulian/julians-weather-app/assets/141679437/3947595f-91cd-47b2-a69c-e904e4e62aad)
-![Screenshot_1697132719](https://github.com/AlcalaJulian/julians-weather-app/assets/141679437/64fd111d-0355-40a1-b08e-9dc61ae8e832)
+![Screenshot_20231012-131441](https://github.com/AlcalaJulian/julians-weather-app/assets/141679437/7bb792db-b368-4d46-86ba-d4d321310141)
+
+![Screenshot_20231012-131444](https://github.com/AlcalaJulian/julians-weather-app/assets/141679437/01a0e03e-785a-4e4f-ba12-50a34c782067)
+
 
 ### APK de prueba
 https://drive.google.com/file/d/1iMriy3lnN7npt2fYZ35a7kwHQ_DudE4U/view?usp=sharing
